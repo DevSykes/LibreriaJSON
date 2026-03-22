@@ -16,7 +16,6 @@ public class FileController {
 
             oos.writeObject(favoritos);
 
-            // Frase humana y sin emojis
             System.out.println("Lista de favoritos guardada con exito.");
 
         } catch (IOException e) {
